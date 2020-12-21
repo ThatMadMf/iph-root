@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Fix imports &amp; code style">
+    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Implement db group repository">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/DBSubjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/SubjectDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupRepositoryImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api" beforeDir="false" afterPath="$PROJECT_DIR$/api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/group/DBGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/group/DBGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/subject/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/subject/SubjectRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/InmemorySubjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Vue Single File Component" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -238,7 +241,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608522625269</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix indents">
+      <created>1608523256163</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608523256163</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Change api hash">
+      <created>1608523299356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608523299356</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create fixture migration">
+      <created>1608531073206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608531073206</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implement db group repository">
+      <created>1608531105380</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608531105380</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +306,26 @@
     <MESSAGE value="Implement feed(publications) page" />
     <MESSAGE value="Fix gitignore" />
     <MESSAGE value="Fix imports &amp; code style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix imports &amp; code style" />
+    <MESSAGE value="Fix indents" />
+    <MESSAGE value="Change api hash" />
+    <MESSAGE value="Create fixture migration" />
+    <MESSAGE value="Implement db group repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement db group repository" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/subject/DBSubjectRepository.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/subject/Subject.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
