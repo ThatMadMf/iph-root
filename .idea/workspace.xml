@@ -97,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
+  <component name="RunManager" selected="Gradle.api">
     <configuration name="api" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,9 +151,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.api" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="HTTP Request.generated-requests#1" />
-        <item itemvalue="Gradle.api" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="HTTP Request.generated-requests#1" />
       </list>
