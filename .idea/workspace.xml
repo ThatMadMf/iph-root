@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Implement publication repo">
+    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Change subject ids in population script">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/users/DbUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepositoryImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608541249778</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Change subject ids in population script">
+      <created>1608541489947</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608541489947</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Change subject ids in population script">
+      <created>1608541503222</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608541503222</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +349,8 @@
     <MESSAGE value="Implement db group repository" />
     <MESSAGE value="Implement db subject repository" />
     <MESSAGE value="Implement publication repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement publication repo" />
+    <MESSAGE value="Change subject ids in population script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change subject ids in population script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,11 +362,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java</url>
-          <line>29</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="14" />
+          <line>39</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.InstantiationException" package="java.lang" />
