@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Implement db group repository">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/DBSubjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/SubjectDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Implement db subject repository">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/DBPublicationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api" beforeDir="false" afterPath="$PROJECT_DIR$/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/group/DBGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/group/DBGroupRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/subject/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/subject/SubjectRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/InmemorySubjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/InmemoryPublicationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/subject/DBSubjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/DBSubjectRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608531105380</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implement db subject repository">
+      <created>1608535579348</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608535579348</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implement db subject repository">
+      <created>1608535595293</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608535595293</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +323,8 @@
     <MESSAGE value="Change api hash" />
     <MESSAGE value="Create fixture migration" />
     <MESSAGE value="Implement db group repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement db group repository" />
+    <MESSAGE value="Implement db subject repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement db subject repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,6 +339,23 @@
           <line>26</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java</url>
+          <line>29</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.InstantiationException" package="java.lang" />
+          <option name="timeStamp" value="17" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
