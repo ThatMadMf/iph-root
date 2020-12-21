@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Implement db subject repository">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/DBPublicationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/InmemoryPublicationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/subject/DBSubjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/DBSubjectRepository.java" afterDir="false" />
+    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Implement publication repo">
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/migrations/V010__populate_database.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608535595293</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implement publication repo">
+      <created>1608541219585</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608541219585</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implement publication repo">
+      <created>1608541249778</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608541249778</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +330,8 @@
     <MESSAGE value="Create fixture migration" />
     <MESSAGE value="Implement db group repository" />
     <MESSAGE value="Implement db subject repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement db subject repository" />
+    <MESSAGE value="Implement publication repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement publication repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,22 +342,12 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/subject/Subject.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java</url>
           <line>29</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.InstantiationException" package="java.lang" />
