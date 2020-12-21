@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Fix imports &amp; code style">
+      <change afterPath="$PROJECT_DIR$/client/src/services/api-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupRepositoryImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/users/UserRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/PublicationList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PublicationList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/action-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/action-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/modules/publication.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/publication.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/mutation-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/mutation-types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,7 @@
         <entry key="$PROJECT_DIR$/client" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1lkITVKIMensyJ2YHaqReZOAP3m" />
@@ -111,14 +115,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.serve">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
