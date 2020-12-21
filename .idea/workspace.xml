@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Implemented sending submissions, changed route" />
+    <list default="true" id="335f2df8-6cc9-4630-bba0-f1007c1e0a17" name="Default Changelist" comment="Remove unused components">
+      <change beforePath="$PROJECT_DIR$/api" beforeDir="false" afterPath="$PROJECT_DIR$/api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/group/GroupRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/publication/PublicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/subject/SubjectRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/subject/SubjectRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/submission/Submission.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/submission/Submission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/submission/SubmissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/submission/SubmissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/submission/SubmissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/submission/SubmissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/submission/SubmissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/submission/SubmissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,16 +41,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="IPH-api" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="IPH-api" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="IPH-api" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -57,6 +60,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="efc62b7bf62f81782a01e1d676185cc537084966" />
+        <entry key="$PROJECT_DIR$/api" value="master" />
         <entry key="$PROJECT_DIR$/client" value="master" />
       </map>
     </option>
